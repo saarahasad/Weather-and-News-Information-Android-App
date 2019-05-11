@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg3"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:text=" OPTIONS"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/setting"
+        android:clickable="true"
+        android:textSize="25dp"
+        android:background="@drawable/customborder"
+        android:text=" Settings"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:layout_height="50dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/about"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/customborder"
+        android:text=" About"
+        android:textColor="@color/colorWhite"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/exit"
+        android:textSize="25dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/customborder"
+        android:text=" Exit"
+        android:layout_height="50dp"
+        />
+</LinearLayout>

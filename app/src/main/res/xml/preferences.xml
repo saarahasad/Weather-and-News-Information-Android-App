@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Temperature Unit">
+
+        <ListPreference
+            android:entries="@array/listArray"
+            android:entryValues="@array/listArray"
+            android:key="tempKey"
+            android:summary="set unit"
+            android:title="Set Unit" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
